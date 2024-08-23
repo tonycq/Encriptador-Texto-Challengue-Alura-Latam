@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-chi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styleChallenge.css">
+</head>
+<body>
+    <header class="encabezado-encriptador">
+        <div class="encabezado-principal">
+            <img class="encabezado-principal-logo" src="/assests/Logo.png" alt="aluraLatam">
+        </div>
+        <div class="encabezado-titulo">
+            <h1 class="encabezado-titulo-informativo">Encriptador de texto</h1>
+            <p class="encabezado-titulo-descripcion">Escribe un mensaje y encriptalo. ¡Compártelo con tus amigos!</p>
+        </div>
+    </header>
+
+    <main class="encriptacion">
+        <section class="encriptacion-cuadro-texto">
+            <textarea class="encriptacion-texto-entrada" id="texto-para-encriptar" placeholder="Ingrese el texto aquí..."></textarea>
+            <div class="encriptacion-reglas">
+                <p class="encriptacion-reglas-definidas">Solo letras minúsculas, sin acentos ni caracteres especiales.</p>
+            </div>
+            <div class="botones-encriptacion">
+                <button class="botones-encriptacion-encriptar">Encriptar</button>
+                <button class="botones-encriptacion-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="encriptacion-texto-salida">
+            <div class="encriptacion-texto-sobre-imagen">
+                <img class="encriptacion-imagen-muñeco" src="assests/Muñeco.png" alt="muñeco">
+                <div class="encriptacion-texto-encriptado">
+                    <p class="texto-mensaje">Ningún mensaje encontrado</p>
+                    <p class="texto-mensaje-2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <div class="encriptacion-contenido">
+                    <textarea class="encriptacion-texto-entrada" id="texto-encriptado" placeholder="Mensaje encriptado aparecerá aquí..."></textarea>
+                    <button class="encriptacion-copiar">Copiar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+  
+        <footer class="footer-desarrollador">
+            <p>Desarrollado por Anthony Campos</p>
+      
+    </footer>
+    
+    <script src="appChallengue.js"></script>
+</body>
+</html>
